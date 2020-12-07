@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7f8fa6;
+}
+
+.app {
+  background-color: #fefefe;
+  height: 610px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.app .header {
+  height: 39px;
+  border-bottom: 2px solid #dcdde1;
+  line-height: 39px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 520;
+  padding-left: 1.2em;
+}
+
+.app .main {
+  height: 429px;
+  width: 100%;
+  border-bottom: 2px solid #dcdde1;
+  overflow: auto;
+}
+
+.app .main::-webkit-scrollbar {
+  background-color: #f5f6fa;
+  width: 5px;
+}
+
+.app .main::-webkit-scrollbar:hover {
+  width: 8px;
+}
+
+.app .main::-webkit-scrollbar-thumb {
+  background: #00a8ff;
+  border-radius: 5px;
+}
+
+.app .main::-webkit-scrollbar-thumb:hover {
+  width: 8px;
+}
+
+.app .main .oneMessage {
+  margin-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app .main .oneMessage:last-child {
+  margin-bottom: 20px;
+}
+
+.app .main .oneMessage > div:nth-child(1) {
+  width: 48px;
+  margin: 11px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 48px;
+  background-color: #0097e6;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.app .main .oneMessage > div:nth-child(2) {
+  max-width: 260px;
+  margin-top: 11px;
+}
+
+.app .main .oneMessage > div:nth-child(2) div:nth-child(1) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.4em;
+  font-weight: 100;
+  height: 24px;
+}
+
+.app .main .oneMessage > div:nth-child(2) div:nth-child(2) {
+  background-color: #f5f6fa;
+  padding: 10px;
+}
+
+.app .main .orthersmessage {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.app .main .orthersmessage .info {
+  border-radius: 0 10px 10px 10px;
+}
+
+.app .main .mymessage {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.app .main .mymessage .time {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.app .main .mymessage .info {
+  border-radius: 10px 0 10px 10px;
+  color: #fff;
+  background-color: #0097e6 !important;
+}
+
+.app .footer {
+  height: 140px;
+  width: 100%;
+}
+
+.app .footer > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.app .footer > div {
+  width: 380px;
+  margin: 10px;
+}
+
+.app .footer > div #text {
+  resize: none;
+  width: 380px;
+  height: 70px;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+}
+
+.app .footer > div #text::-webkit-scrollbar {
+  background-color: #f5f6fa;
+  width: 5px;
+}
+
+.app .footer > div #text::-webkit-scrollbar:hover {
+  width: 8px;
+}
+
+.app .footer > div #text::-webkit-scrollbar-thumb {
+  background: #00a8ff;
+  border-radius: 5px;
+}
+
+.app .footer > div #text::-webkit-scrollbar-thumb:hover {
+  width: 8px;
+}
+
+.app .footer > div #btn {
+  width: 100px;
+  height: 1.6em;
+  line-height: 1.6em;
+  font-size: 1.2em;
+  color: #fff;
+  outline: none;
+  text-align: center;
+  background-color: #00a8ff;
+  border: none;
+}
+
+.app .footer > div #btn:active {
+  background-color: #0097e6;
+  -webkit-box-shadow: 1px 1px 1px #00a8ff;
+          box-shadow: 1px 1px 1px #00a8ff;
+}
+/*# sourceMappingURL=app.css.map */
