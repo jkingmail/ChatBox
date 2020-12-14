@@ -228,6 +228,27 @@ body {
           box-shadow: 2px 1px 1px $lightBlue;
         }
       }
+      #ipt {
+        height: 1.6em;
+        label {
+          height: 1.6em;
+          line-height: 1.6em;
+          font-size: 1.2em;
+          color: $lightBlack;
+        }
+        input {
+          border: 0.1px solid $strongGrey;
+          height: 1.6em;
+          line-height: 1.6em;
+          font-size: 1.2em;
+          width: 100px;
+          outline: none;
+          &:active {
+            //background-color: $strongBlue;
+            box-shadow: 0px 0px 3px $lightBlue;
+          }
+        }
+      }
     }
   }
 }
